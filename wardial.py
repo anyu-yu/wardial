@@ -230,7 +230,7 @@ def wardial(hosts, **kwargs):
     # and use this event loop to call the `_wardial_async` function.
     # Ensure that all of the kwargs parameters get passed to `_wardial_async`.
     # You will have to do some post-processing of the results of this function to convert the output.
-    if type(hosts) != list:
+    if type(hosts != list):
         length = 0
         list_hosts = []
         for host in hosts:
